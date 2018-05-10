@@ -1,0 +1,164 @@
+
+
+
+body {
+  font-family: 'Montserrat', helvetica, arial, sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  margin-left: 35px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: black;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 30px;
+}
+h2 {
+  font-size: 24px;
+}
+h3 {
+  font-size: 18px;
+}
+h4 {
+  font-size: 12px;
+}
+
+header {
+  height: 110px;
+  margin: 0 auto;
+
+}
+header h1 {
+  margin: 0;
+  padding: 38px 0;
+  float: left;
+}
+header h1 span {
+  color: #77a466;
+}
+header nav {
+  float: right;
+  padding: 46px 38px;
+}
+header nav ul {
+  margin: 0;
+  padding: 0px;
+}
+header nav ul li {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  display: inline;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: #77a466;
+  padding: 10px;
+}
+header h2 {
+  width: 112px;
+  clear:both;
+  font-size: 16px;
+  line-height: 80px;
+  color: #000000;
+  padding: 20px 0;
+}
+
+.top-section,
+.bottom-section {
+  margin: 0 auto;
+  clear: both;
+}
+
+.main-image {
+  height: auto;
+  float: left;
+}
+.main-image img {
+  border: 3px solid #77a466;
+
+}
+
+.main-title {
+  height: auto;
+  float: left;
+}
+.main-title h3 {
+  text-align: left;
+  padding: 5px 0;
+  color: #77a466;
+}
+.main-title p {
+  padding: 0;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.section-one,
+.section-two,
+.section-three {
+  width: 410px;
+  height: auto;
+  float: left;
+  border-top: 3px solid #eee;
+
+}
+
+.section-one h4 {
+  padding: 10px 38px;
+}
+
+.section-two {
+  border-left: 1px solid #eee;
+  border-right: 1px solid #eee;
+}
+
+.section-two h4,
+.section-three h4 {
+  padding: 10px 38px;
+}
+
+.menu {
+  list-style: none;
+  padding: 0px;
+}
+.menu li {
+  padding: 10px 0;
+  color: #77a466;
+}
+.reviews {
+  color: #333;
+  font-size: 15px;
+  line-height: 21px;
+  padding-left: 35px;
+  padding-right: 20px;
+}
+.address {
+  font-size: 16px;
+  line-height: 24px;
+  padding-left: 38px;
+}
+
+footer {
+  height: 50px;
+  border-top: 3px solid #eee;
+  margin: 0 auto;
+  clear: both;
+  text-align: center;
+}
+footer span {
+  font-family: 'wisdom-script';
+  text-transform: lowercase;
+  font-weight: normal;
+  color: #77a466;
+  font-size: 16px;
+}
